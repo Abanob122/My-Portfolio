@@ -1,0 +1,102 @@
+body , html{
+    height : 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(245, 241, 241);
+}
+nav li{
+    display: inline;
+    margin: 20px;
+
+}
+nav ul{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: white
+    
+}
+nav a{
+    color: #fdefc0;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero-image{
+    background-image:url("../images/suit.jpeg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.hero-text{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: absolute;
+    top: 10%;
+    right: 70%;
+    transform: translate(50 , 50);
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.side{
+    width: 10%;
+    float: right;
+    height: 100px;
+    padding: 10px;
+}
+
+#profile.image{
+    width: 100px;}
+
+#profile{
+    text-align: center;
+}
+
+.side-article , .main-article {
+    padding: 5px;
+    margin: bottom 5px;
+    
+
+}
+.side-article ul{
+    list-style-type:none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+} 
+
+#profile-details{
+    margin-right: 30px;
+    text-align:center;
+}
+
+.side-article {
+    background-color: white;
+}
+.main-article{
+    background-color: white;
+}
